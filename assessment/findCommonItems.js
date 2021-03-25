@@ -9,8 +9,8 @@ const findCommonItems = (arrayA,arrayB) => {
             }
         }
     }
-    if(obj.length===0)
-        return obj;
+    if(obj.length==0)
+        return "Match not found";
     return obj;
 }
 
